@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+body{
+    background-image: url("./Assets/the\ witcher\ hell.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    background-color: none;
+    box-sizing: border-box;
+    display:flex;
+    height: 10%;
+    width: 99.4vw;
+    justify-content:space-between;   
+    padding: 50px; 
+}
+
+.logo{  
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+li{
+    font-size: 25px;
+    padding: 10px;
+
+}
+
+li:hover{
+    padding: 10px;
+    background-color: #B22222;
+    border: #B22222  solid;
+    border-radius: 20px;
+   transition: ease-in-out 5ms;
+    cursor: pointer;
+}
+main{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./Assets/the\ witcher\ kavil2.png") ;
+    background-repeat: no-repeat ;
+    background-size:contain;
+    background-position: center;
+    height: 84.2vh;
+
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.kelvin{
+    height: 35vh;
+}
+
+button{
+    height: 3vh;
+    width: 10vw;
+    background-color: #FF0000 ;
+    border: #FF0000;
+    margin: 30px;
+    border-radius: 50px;
+    font-size: 25px;
+}
+
+footer{
+    height: 4.6vh;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    background-color: #B22222;
+
+}
+
+footer section{
+padding: 0;
+margin: 10px;
+font-size: 17px;
+    
+}
+footer section a{
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
